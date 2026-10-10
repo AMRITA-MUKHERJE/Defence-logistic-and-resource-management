@@ -8,6 +8,15 @@
     <artifactId>Defence_Logistic_and_resource_management</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
     <dependencies>
         <!-- Source: https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter -->
         <dependency>
